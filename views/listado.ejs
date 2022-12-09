@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/products.css">
+    <title>RodaSound</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+</head>
+<header>
+    <h1 class="nombrepg">RodaSound</h1>
+</header>
+<body>
+    <div class="titulo">CATALOGO DE PRODUCTOS</div>
+    <br>
+
+    <div class="container">
+    
+    <% productos.forEach(productos=> { %>
+        <section>
+          <%- include("products.ejs", {productos: productos}) %>
+        </section>
+        <% }) %>
+
+
+</div>
+</body>
+</html>
