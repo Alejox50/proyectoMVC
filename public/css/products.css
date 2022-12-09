@@ -9,7 +9,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.964);
+    background-color: white;
 
 }
 
@@ -24,15 +24,16 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .caja-img{
     width: 240px;
     height: 280px;
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
-
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    
 }
 .caja{
     margin: 50px;
     background-color: rgb(98, 91, 91);
     border-radius: 15px;
-
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.387), 0 5px 9px rgba(0, 0, 0, 0.373);
 }
 
 .caja-text{

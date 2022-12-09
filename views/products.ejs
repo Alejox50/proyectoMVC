@@ -1,12 +1,16 @@
+  
   <article class="caja">
-    <img class="caja-img" src="/images/<%= productos.imagen%>" alt="...">
-    <h3 class="caja-text">
-      <%= productos.nombreProducto %>
-    </h3>
-    <p class="caja-precio">
-      <%= productos.precio %> $
-    </p>
-    <p class="caja-text">
-      <%= productos.detalle %>
-    </p>
+    <a href="#">
+      <img class="caja-img" src="/images/<%= productos.imagen%>" alt="...">
+    </a>
+    
+      <h3 class="caja-text">
+        <%= productos.nombreProducto %>
+      </h3>
+      <p class="caja-precio">
+        <%= productos.precio %> $
+      </p>
+      <p class="caja-text">
+        <%= productos.detalle %>
+      </p>
   </article>
